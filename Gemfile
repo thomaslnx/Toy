@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '2.5.3'
 
 gem 'rails', '5.2.2'
 gem 'puma', '3.12.0'
@@ -24,9 +24,9 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
-group :production do
-  gem 'pg', '0.20.0'
-end
+#group :production do
+#  gem 'pg', '0.20.0'
+#end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -92,7 +92,6 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.9.1)
       mini_portile2 (~> 2.4.0)
-    pg (0.20.0)
     puma (3.12.0)
     rack (2.0.6)
     rack-test (1.1.0)
@@ -179,7 +178,6 @@ DEPENDENCIES
   jbuilder (= 2.8.0)
   jquery-rails (= 4.3.3)
   listen
-  pg (= 0.20.0)
   puma (= 3.12.0)
   rails (= 5.2.2)
   sass-rails
@@ -192,7 +190,7 @@ DEPENDENCIES
   web-console (= 3.7.0)
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.5.3p105
 
 BUNDLED WITH
    1.17.2
