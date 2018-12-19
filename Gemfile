@@ -10,6 +10,7 @@ gem 'coffee-rails'
 gem 'turbolinks'
 gem 'jbuilder', '2.8.0'
 gem 'jquery-rails', '4.3.3'
+gem 'bootsnap', require: false
 
 group :development, :test do
   gem 'sqlite3'
